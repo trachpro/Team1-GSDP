@@ -86,7 +86,7 @@ class Main extends Component {
               </div>
               <div className="level2">
                 <button className="turnDirection" onClick={() => command("left")}><i className="glyphicon glyphicon-share-alt turn-left"></i></button>
-                <button className="center" onClick={() => command("stop")}><i className="glyphicon glyphicon-play"></i></button>
+                <button className="center" onClick={() => command("stop")}><i className="glyphicon glyphicon-stop"></i></button>
                 <button className="turnDirection" onClick={() => command("right")}><i className="glyphicon glyphicon-share-alt"></i></button>
               </div>
               <div className="level3">
